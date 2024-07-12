@@ -24,21 +24,30 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Hi, welcome to my Portfolio
+            Hi, welcome!
           </h1>
         </motion.div>
+        <br />
 
         <motion.div
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
+
           <span>
-            Providing
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              {" "}
-              the best{" "}
+
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-cyan-300">
+              Hey there, I'm Riddhi
             </span>
-            project exprience
+            <br />
+            <br />
+            <span className="text-4xl">
+            {"\n"}Providing
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
+              {" "}
+              the best project exprience{" "}
+            </span>
+            </span>
           </span>
         </motion.div>
 
@@ -46,7 +55,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
+          I&apos;m a Full Stack and Software Developer with experience in Website,
           Mobile, and Software development. Check out my projects and skills.
         </motion.p>
         <motion.a
@@ -65,7 +74,7 @@ const HeroContent = () => {
           src="/mainIconsdark.svg"
           alt="work icons"
           height={650}
-          width={650}
+          width={550}
         />
       </motion.div>
     </motion.div>
