@@ -1,7 +1,7 @@
 export const Skill_data = [
     {
-      skill_name: "Html 5",
-      Image: "/html.png",
+      skill_name: "React",
+      Image: "/React-icon.svg",
       width: 80,
       height: 80,
     },
