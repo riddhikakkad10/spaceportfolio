@@ -27,7 +27,6 @@ const HeroContent = () => {
             Welcome! Let's explore my Dynamic World!
           </h1>
         </motion.div>
-        <br />
 
         <motion.div
           variants={slideInFromLeft(0.5)}

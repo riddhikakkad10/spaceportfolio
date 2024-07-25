@@ -10,13 +10,6 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <Image
-            src="/RK.jpeg"
-            alt="logo"
-            width={50}
-            height={70}
-            className="cursor-pointer hover:animate-slowspin"
-          />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
             RIDDHI KAKKAD
