@@ -36,7 +36,7 @@ const HeroContent = () => {
           <span>
 
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-cyan-300">
-              Hey there, I'm Riddhi
+              Hello, I'm Riddhi
             </span>
             <br />
             <br />
