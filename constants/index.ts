@@ -1,9 +1,16 @@
-type Skill = {
+export interface Skill {
   skill_name: string;
   Image: string;
   width: number;
   height: number;
-};
+}
+
+// Define the interface for social links
+export interface Social {
+  name: string;
+  src: string;
+}
+
 
 export const Skill_data: Skill[] = [
     {
@@ -60,7 +67,7 @@ export const Skill_data: Skill[] = [
   
   ];
   
-  export const Socials = [
+  export const Socials: Social[] = [
     {
       name: "Discord",
       src: "/instagram.svg",
@@ -77,7 +84,7 @@ export const Skill_data: Skill[] = [
   
   
   
-  export const Frontend_skill = [
+  export const Frontend_skill: Skill[] = [
     {
       skill_name: "Html 5",
       Image: "/html-1.svg",
@@ -118,7 +125,7 @@ export const Skill_data: Skill[] = [
     
   ];
   
-  export const Backend_skill = [
+  export const Backend_skill: Skill[] = [
     {
       skill_name: "My SQL",
       Image: "/mysql.png",
@@ -151,10 +158,10 @@ export const Skill_data: Skill[] = [
     },
   ];
   
-  export const Full_stack = [
+  export const Full_stack: Skill[] = [
 
   ];
   
-  export const Other_skill = [
+  export const Other_skill: Skill[] = [
    
   ];
