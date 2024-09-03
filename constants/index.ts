@@ -1,3 +1,10 @@
+type Skill = {
+  skill_name: string;
+  Image: string;
+  width: number;
+  height: number;
+};
+
 export const Skill_data = [
     {
       skill_name: "React",
