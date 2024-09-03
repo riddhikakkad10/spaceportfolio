@@ -5,7 +5,7 @@ type Skill = {
   height: number;
 };
 
-export const Skill_data = [
+export const Skill_data: Skill[] = [
     {
       skill_name: "React",
       Image: "/React-icon.svg",
